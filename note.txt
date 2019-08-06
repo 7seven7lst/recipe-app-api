@@ -1,0 +1,5 @@
+# docker-compse build
+# docker-compose run app sh -c "django-admin.py startproject app ." # to
+# create the app
+
+# > is to break command into multi line
