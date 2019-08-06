@@ -13,5 +13,5 @@ COPY ./app /app
 
 # create user for running the application, and switch to that user,
 # instead of root
-RUN  adduser - D user
+RUN  adduser -D user
 USER user
