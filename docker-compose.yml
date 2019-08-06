@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: . # use current directory where the dockerfile located as context
+    ports:
+      - "8000:8000"
+    volumes: # automatically update
+      - ./app:/app
+    command: > # > is to break command into multi line
+      sh -c "python manage.py runserver 0.0.0.0:8000"
+
+# docker-compse build
+# docker-compose run app sh -c "django-admin.py startproject app ." # to create the app
