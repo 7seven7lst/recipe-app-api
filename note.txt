@@ -3,3 +3,8 @@
 # create the app
 
 # > is to break command into multi line
+
+# TDD
+# docker-compose run app sh -c "python manage.py test"
+# docker-compose build
+# docker-compose run app sh -c "python manage.py test && flake8"
