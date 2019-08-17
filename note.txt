@@ -13,3 +13,9 @@
 # docker-compose run app sh -c "python manage.py startapp core"
 # docker-compose run app sh -c "python manage.py makemigrations core"
 
+# Section 8
+# docker-compose run app sh -c "python manage.py createsuperuser"
+# go to http://localhost:8000/admin to log in as admin
+
+# section 9
+# docker-compose run --rm app sh -c "python manage.py test && flake8"
