@@ -19,3 +19,6 @@
 
 # section 9
 # docker-compose run --rm app sh -c "python manage.py test && flake8"
+
+#section 10
+# docker-compose run --rm app sh -c "python manage.py startapp recipe"
